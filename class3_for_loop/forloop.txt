@@ -1,0 +1,9 @@
+four types of loops in php
+1. while loop
+syntax
+<php
+while(condition)
+{
+
+}
+<?php
