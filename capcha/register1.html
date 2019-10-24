@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+</head>
+
+<body>
+<form action="register2.php" method="post">
+<input type="text" name="username">
+<input type="password" name="password">
+
+<div class="g-recaptcha" data-sitekey="6Lcc9xsUAAAAACZHaB-supct2eXsCKCZkQ5rezsD" data-callback="enableBtn"></div>
+<input type="submit" name="submit" id="button1">
+</form>
+<script>
+document.getElementById("button1").disabled = true;
+function enableBtn(){
+    document.getElementById("button1").disabled = false;
+   }
+</script>
+</body>
+</html>
